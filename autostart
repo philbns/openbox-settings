@@ -1,0 +1,6 @@
+sh ~/.fehbg &
+xbindkeys &
+checkgmail &
+cairo-compmgr &
+tint2 &
+conky -c ~/.Conky/.conkyrc &
