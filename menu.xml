@@ -16,7 +16,21 @@
 					</execute>
 				</action>
 			</item>
-			<item label="File Manager" icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png">
+			<item label="Spotify">
+				<action name="Execute">
+					<execute>
+						spotify-beta
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png" label="LibreOffice Calc">
+				<action name="Execute">
+					<execute>
+						libreoffice --calc
+					</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/hicolor/16x16/apps/Thunar.png" label="File Manager">
 				<action name="Execute">
 					<execute>
 						Thunar
@@ -30,13 +44,6 @@
 					</execute>
 				</action>
 			</item>
-			<item label="uDig">
-				<action name="Execute">
-					<execute>
-						udig
-					</execute>
-				</action>
-			</item>
 			<item label="GVim">
 				<action name="Execute">
 					<execute>
@@ -44,10 +51,17 @@
 					</execute>
 				</action>
 			</item>
-			<item icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png" label="LibreOffice Calc">
+			<item label="GEdit">
 				<action name="Execute">
 					<execute>
-						libreoffice --calc
+						gedit
+					</execute>
+				</action>
+			</item>
+			<item label="uDig">
+				<action name="Execute">
+					<execute>
+						udig
 					</execute>
 				</action>
 			</item>
@@ -259,7 +273,7 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Chromium" icon="/usr/share/icons/hicolor/16x16/apps/chromium.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/chromium.png" label="Chromium">
 				<action name="Execute">
 					<execute>
 						chromium
@@ -308,7 +322,7 @@
 					</execute>
 				</action>
 			</item>
-			<item label="Pidgin Internet Messenger" icon="/usr/share/icons/hicolor/16x16/apps/pidgin.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/pidgin.png" label="Pidgin Internet Messenger">
 				<action name="Execute">
 					<execute>
 						pidgin
@@ -352,35 +366,35 @@
 			</item>
 		</menu>
 		<menu id="3" label="Office">
-			<item label="LibreOffice Writer" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png" label="LibreOffice Writer">
 				<action name="Execute">
 					<execute>
 						libreoffice --writer
 					</execute>
 				</action>
 			</item>
-			<item label="LibreOffice Calc" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png" label="LibreOffice Calc">
 				<action name="Execute">
 					<execute>
 						libreoffice --calc
 					</execute>
 				</action>
 			</item>
-			<item label="LibreOffice Base" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-base.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-base.png" label="LibreOffice Base">
 				<action name="Execute">
 					<execute>
 						libreoffice --base
 					</execute>
 				</action>
 			</item>
-			<item label="LibreOffice Impress" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-impress.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-impress.png" label="LibreOffice Impress">
 				<action name="Execute">
 					<execute>
 						libreoffice --impress
 					</execute>
 				</action>
 			</item>
-			<item label="PDF Viewer" icon="/usr/share/icons/hicolor/16x16/apps/evince.png">
+			<item icon="/usr/share/icons/hicolor/16x16/apps/evince.png" label="PDF Viewer">
 				<action name="Execute">
 					<execute>
 						evince
